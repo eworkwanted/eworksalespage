@@ -368,8 +368,86 @@
     </div>
 </section>
 
-<section class="mbr-section modalblock" style="padding-top: 20px; padding-bottom: 20px; display: none;" data-rv-view="133">
-Modal Block (this text will not display when preview/publishing !) Use settings button to customize ---&gt;
+<section class="mbr-section modalblock" style="padding-top: 20px; padding-bottom: 20px; display: block;" data-rv-view="133">
+<script type="text/javascript"> 
+function calculate(form)
+{
+var i;
+i = (form.numbers.value*10)*2.5;
+ 
+ form.total.value=Math.round(i);
+ 
+{
+var j;
+j = (form.total.value*30);
+ form.totall.value=Math.round(j);
+}
+}
+</script>
+<p></p><form name="balance" id="balance" action="http://biz.ovo.bg/easyhomebiz/index.html#" method="post">
+
+       <div align="center">
+         <center>
+         
+                <table max-width="20%" cellspacing="1" cellpadding="7" bordercolor="#fff666" border="25">
+<tbody> 
+                                <tr> 
+                                  <td colspan="2" bordercolor="#fff666" bgcolor="#4d4d4d"> 
+                                    <p style="text-align: center" class="animated fadeInUp" align="center">
+									<font style="font-size: 20pt" face="Tahoma" color="#FFFFFF">
+                                    <strong>
+                                    <img src="http://i64.tinypic.com/np2w5v.jpg" class="animated fadeInUp" width="100%" height="auto" border="0"><br>
+                                    Daily &amp; Monthly Earnings Calculator<br>
+									</strong></font>
+									<font font="" face="Tahoma" color="#F2F5A9" size="3">
+                                    See How Much You Can Earn with Email Processing System:</font></p></td>
+</tr>
+                                <tr bgcolor="#4d4d4d"> 
+                                  <td bordercolor="#999999" bgcolor="#FFFFFF"> 
+                                    <p style="text-align: center" class="animated fadeInUp" align="center">
+                                    <font face="Tahoma">
+                                    <span style="font-size: 11pt; font-weight: 700">Number of Emails You Can Process Per Day</span></font></p></td>
+                                  
+                                <td bordercolor="#999999" bgcolor="#FFFFFF"> 
+                              &nbsp;&nbsp; 
+                              <input size="8" value="10" name="numbers" style="font-weight: 700" class="animated fadeInUp">
+                              <font style="font-size: 11pt" face="Tahoma"><strong>X ($25.00* Per Email)</strong></font></td>
+          </tr>
+                                <tr> 
+                                  <td bordercolor="#999999" bgcolor="#FFFFFF"> 
+              <p style="text-align: center" class="animated fadeInUp" align="center"><strong>
+              <font style="font-size: 11pt" face="Tahoma">Your PayPal Payments Per Day</font><font size="3">
+              </font></strong>
+                                     </p></td>
+ 
+<td bordercolor="#999999" bgcolor="#FFFFFF"> 
+<strong><font face="Tahoma">$</font></strong> 
+<input size="8" value="250" name="total" style="font-weight: 700" class="animated fadeInUp">
+</td>
+          </tr>
+                                <tr> 
+                                  <td bordercolor="#999999" bgcolor="#FFFFFF"> 
+<p style="text-align: center" class="animated fadeInUp" align="center"><font face="Tahoma"><strong><span style="font-size: 11pt">Your PayPal Payments Per Month</span></strong></font></p></td>
+ 
+                            <td bordercolor="#999999" bgcolor="#FFFFFF"> 
+<font face="Tahoma"><strong>$</strong></font>                                   
+                          <input size="8" value="7500" readonly="readonly" name="totall" style="font-weight: 700" class="animated fadeInUp"></td>
+          </tr>
+                                <tr>
+                                  <td class="normal" bordercolor="#999999" colspan="2" bgcolor="#FFFFFF">
+                                  <p class="animated fadeInUp" align="center"> 
+                                  <strong><span style="font-size: 11pt">
+                                  <font face="Tahoma" color="#666666"> 
+                                  <input name="Button" class="button animated fadeInUp" onclick="calculate(this.form)" value=" Calculate My Earnings!" style="float: right" type="button"></font></span></strong></p></td>
+                                </tr>
+                                </tbody> 
+      </table>
+
+         
+         </center>
+       </div>
+</form>
+</section>
 </section><section class="mbr-section" id="modal-block-bk" data-rv-view="133">
 <div class="modal" id="myModal" style="display: none;">
 	<div class="container">
