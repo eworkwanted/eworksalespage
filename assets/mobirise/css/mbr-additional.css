@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 
 
@@ -444,6 +445,9 @@ h6,
 .mbr-small-footer a,
 .mbr-gallery-filter li:hover {
   color: #c0a375;
+}
+.scrollToTop_wraper {
+  opacity: 0 !important;
 }
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -1007,9 +1011,6 @@ h6,
   color: #3d8eb9;
   font-size: 36px;
 }
-#buttons1-9l .btn {
-  font-size: 32px;
-}
 
 #header3-8i .mbr-section-title,
 #header3-8i .mbr-section-subtitle {
@@ -1020,9 +1021,6 @@ h6,
 }
 #content1-8h P {
   font-family: 'Montserrat', sans-serif;
-}
-#buttons1-9m .btn {
-  font-size: 32px;
 }
 
 
@@ -1820,6 +1818,7 @@ h6,
 #menu-ce .close-icon::after {
   background-color: #ffffff;
 }
+
 #header3-eu .mbr-section-title,
 #header3-eu .mbr-section-subtitle {
   text-align: center;
@@ -1828,32 +1827,48 @@ h6,
   color: #ef4644;
   font-size: 46px;
 }
+#header3-eu .mbr-section-subtitle {
+  color: #2c46ef;
+  font-family: 'Open Sans', sans-serif;
+}
 #msg-box4-ev P {
-  text-align: left;
+  text-align: center;
   font-size: 24px;
+  color: #ffffff;
 }
 #msg-box4-ev .btn {
   font-size: 24px;
 }
 #msg-box4-ev H3 {
-  color: #7eb5d2;
+  color: #f3c649;
   text-align: center;
   font-size: 36px;
 }
 #msg-box4-ev B {
   font-size: 23px;
+  color: #ffffff;
+  text-align: center;
+}
+#msg-box4-ev I {
+  color: #f3c649;
 }
 #header3-ew .mbr-section-title,
 #header3-ew .mbr-section-subtitle {
   text-align: center;
 }
 #header3-ew H3 {
-  color: #28324e;
+  color: #fb933d;
 }
 #header3-ew SMALL {
   color: #454545;
 }
 #header3-ew .mbr-section-title {
-  color: #4e4e4e;
+  color: #ffffff;
   font-size: 36px;
+}
+#header3-ew .mbr-section-title I {
+  color: #fb933d;
+}
+#header3-ew SPAN {
+  color: #fb933d;
 }
