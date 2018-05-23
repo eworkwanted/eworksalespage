@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "INDEX.html",
+    "currentPage": "page4.html",
     "name": "eworkwanted-clone",
     "theme": {
       "name": "mobirise3",
@@ -16,23 +16,23 @@
         "subtitleFont": "Lora",
         "textFont": "Oswald",
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false,
         "isRtl": false
       },
       "additionalSetColors": [
+        "#2c46ef",
+        "#fb933d",
+        "#fb8f3d",
         "#4e4e4e",
         "#f4d74f",
         "#ef4644",
-        "#e20a07",
-        "#804cf8",
-        "#6950a2",
-        "#323232"
+        "#e20a07"
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 539,
-    "versionPublish": "4.5.2",
+    "uniqCompNum": 540,
+    "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
@@ -114,12 +114,6 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
             "bgColor": "#7eb5d2",
             "fontSize": "0.85",
             "fontName": {
@@ -128,7 +122,13 @@
               "css": "'Oswald', sans-serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -184,23 +184,23 @@
           },
           "_anchor": "header1-1m",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/es-0627-983759-front-2000x1125.jpg",
             "parallax": false,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/es-0627-983759-front-2000x1125.jpg",
             "bgColor": "#a07e49",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.5",
             "overlayColor": "#7c706b",
-            "overlayOpacity": "0.5"
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "title": "<span style=\"line-height: 1.1;\">Cheers to Your success,</span><br>farewell money worries.",
           "text": "<b><br></b><b>If You can reply to an email, You can make $100 a day and more, part time work.<br>Join today for support and grow Your income by 30k a year.</b>&nbsp;<br><b><br></b><b>more info below</b><br><div style=\"text-align: left;\"><br></div>",
@@ -213,13 +213,13 @@
             "paddingTop": "4",
             "paddingBottom": "4",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": ""
         },
@@ -244,25 +244,25 @@
           },
           "_anchor": "msg-box4-1",
           "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "inverse": false,
             "imageSize": "52",
             "paddingTop": "3",
             "paddingBottom": "7",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/coffee-shop-1149155-2000x1328.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.4",
             "overlayColor": "#7c706b",
-            "overlayOpacity": "0.4"
+            "inverse": false,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -304,10 +304,10 @@
           "_name": "header3",
           "_anchor": "header3-3g",
           "_params": {
-            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#ffffff"
+            "bgColor": "#ffffff",
+            "showMeta": false
           },
           "title": "Not Your average daily grind...&nbsp;",
           "meta": "By John Smith posted July 20, 2016"
@@ -337,24 +337,24 @@
           "_name": "msg-box2",
           "_anchor": "msg-box2-g",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "paddingTop": "3",
             "paddingBottom": "3",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/woman-791185-960-2000x3000-sideways-1400x933.jpg",
             "parallax": false,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/woman-791185-960-2000x3000-sideways-1400x933.jpg",
             "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#3d8eb9",
-            "overlayOpacity": "0.7"
+            "inverse": true,
+            "showButtons": false,
+            "showTitle": true,
+            "showText": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
           "title": "<span style=\"color: rgb(255, 226, 132); font-size: 36px; text-align: center; line-height: 1.1;\">&nbsp; EPS works for plenty of people and is the perfect solution for YOU too.</span><br>",
@@ -417,22 +417,22 @@
           ],
           "_anchor": "testimonials1-h",
           "_params": {
-            "showTitle": false,
-            "showSubtitle": false,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "count": "3",
             "showImages": true,
             "showName": true,
             "showBio": false,
-            "count": "3",
-            "paddingTop": "0",
-            "paddingBottom": "1",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
             "bgColor": "#ffffff",
+            "bgColorRadio": true,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showTitle": false,
+            "showSubtitle": false
           },
           "title": "WHAT OUR FANTASTIC USERS SAY",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
@@ -464,10 +464,10 @@
           "_name": "header3",
           "_anchor": "header3-o",
           "_params": {
-            "showMeta": true,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#efefef"
+            "bgColor": "#efefef",
+            "showMeta": true
           },
           "title": "it all adds up.",
           "meta": "<b style=\"font-style: normal;\">\"Imitate success and You can generate success...\"</b>"
@@ -521,9 +521,9 @@
           "_anchor": "modal-block-p",
           "_params": {
             "showModal": false,
-            "myModalId": "myModal",
             "blockTitle": "",
             "text": "<script type=\"text/javascript\"> \nfunction calculate(form)\n{\nvar i;\ni = (form.numbers.value*10)*2.5;\n \n form.total.value=Math.round(i);\n \n{\nvar j;\nj = (form.total.value*30);\n form.totall.value=Math.round(j);\n}\n}\n</script>\n</p><form name=\"balance\" id=\"balance\" action=\"http://biz.ovo.bg/easyhomebiz/index.html#\" method=\"post\">\n\n       <div align=\"center\">\n         <center>\n         \n                <table max-width=\"20%\" cellspacing=\"1\" cellpadding=\"7\" bordercolor=\"#ffe284\" border=\"40\">\n<tbody> \n                                <tr> \n                                  <td colspan=\"2\" bordercolor=\"#ffe284\" bgcolor=\"#4d4d4d\"> \n                                    <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\">\n\t\t\t\t\t\t\t\t\t<font style=\"font-size: 20pt\" face=\"Tahoma\" color=\"#FFFFFF\">\n                                    <strong>\n                                    <img src=\"http://i64.tinypic.com/np2w5v.jpg\" class=\"animated fadeInUp\" width=\"100%\" height=\"auto\" border=\"0\"><br>\n                                    Daily &amp; Monthly Earnings Calculator<br>\n\t\t\t\t\t\t\t\t\t</strong></font>\n\t\t\t\t\t\t\t\t\t<font font=\"\" face=\"Tahoma\" color=\"#F2F5A9\" size=\"3\">\n                                    See How Much You Can Earn with Email Processing System:</font></p></td>\n</tr>\n                                <tr bgcolor=\"#4d4d4d\"> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n                                    <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\">\n                                    <font face=\"Tahoma\">\n                                    <span style=\"font-size: 11pt; font-weight: 700\">Number of Emails You Can Process Per Day</span></font></p></td>\n                                  \n                                <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n                              &nbsp;&nbsp; \n                              <input size=\"8\" value=\"10\" name=\"numbers\" style=\"font-weight: 700\" class=\"animated fadeInUp\">\n                              <font style=\"font-size: 11pt\" face=\"Tahoma\"><strong>X ($25.00* Per Email)</strong></font></td>\n          </tr>\n                                <tr> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n              <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\"><strong>\n              <font style=\"font-size: 11pt\" face=\"Tahoma\">Your PayPal Payments Per Day</font><font size=\"3\">\n              </font></strong>\n                                     </p></td>\n \n<td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<strong><font face=\"Tahoma\">$</font></strong> \n<input size=\"8\" value=\"250\" name=\"total\" style=\"font-weight: 700\" class=\"animated fadeInUp\">\n</td>\n          </tr>\n                                <tr> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\"><font face=\"Tahoma\"><strong><span style=\"font-size: 11pt\">Your PayPal Payments Per Month</span></strong></font></p></td>\n \n                            <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<font face=\"Tahoma\"><strong>$</strong></font>                                   \n                          <input size=\"8\" value=\"7500\" readonly=\"readonly\" name=\"totall\" style=\"font-weight: 700\" class=\"animated fadeInUp\"></td>\n          </tr>\n                                <tr>\n                                  <td class=\"normal\" bordercolor=\"#ffe284\" colspan=\"2\" bgcolor=\"#FFFFFF\">\n                                  <p class=\"animated fadeInUp\" align=\"center\"> \n                                  <strong><span style=\"font-size: 11pt\">\n                                  <font face=\"Tahoma\" color=\"#666666\"> \n                                  <input name=\"Button\" class=\"button animated fadeInUp\" onclick=\"calculate(this.form)\" value=\" Calculate My Earnings!\" style=\"float: right\" type=\"button\"></font></span></strong></p></td>\n                                </tr>\n                                </tbody> \n      </table>\n\n         \n         </center>\n       </div>\n</form>",
+            "myModalId": "myModal",
             "bgColor": "#ffffff"
           },
           "blockTitle": "",
@@ -547,10 +547,10 @@
           "_name": "header3",
           "_anchor": "header3-3h",
           "_params": {
-            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "People like You and I, just want a fair break.",
           "meta": "By John Smith posted July 20, 2016"
@@ -577,24 +577,24 @@
           },
           "_anchor": "msg-box1-r",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/beforeoutofbedcash-2000x1188.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/beforeoutofbedcash-2000x1188.jpg",
             "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.5",
             "overlayColor": "#3d8eb9",
-            "overlayOpacity": "0.5"
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "<b><br></b><b>Look forward to making money morning and evening, on a daily basis...</b>",
@@ -656,10 +656,10 @@
           "_name": "header3",
           "_anchor": "header3-15",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "Set Your own schedule, anyday, everyday.",
           "meta": ""
@@ -689,24 +689,24 @@
           },
           "_anchor": "msg-box1-l",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1127.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1127.jpg",
             "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.4",
             "overlayColor": "#a38f84",
-            "overlayOpacity": "0.4"
+            "inverse": true,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "<b><br></b><br><b><br></b><br><b><br></b><br><b><br></b><br><b><br></b><b style=\"font-style: normal;\">\"Auto Pilot\" system makes Your sky the limit.</b>",
@@ -755,10 +755,10 @@
           "_name": "header3",
           "_anchor": "header3-13",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "Make time for the nicer things in life.",
           "meta": ""
@@ -786,25 +786,25 @@
           },
           "_anchor": "msg-box5-z",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "imageSize": 50,
             "paddingTop": 0,
             "paddingBottom": "4",
+            "parallax": false,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.4",
             "overlayColor": "#fff",
-            "overlayOpacity": "0.4"
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -850,10 +850,10 @@
           "_name": "header3",
           "_anchor": "header3-1l",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "The poor work hard, the wealthy work smart.",
           "meta": "By John Smith posted July 20, 2016"
@@ -882,23 +882,23 @@
           "_name": "header5",
           "_anchor": "header5-1c",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#7eb5d2",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "title": "hey, we don't want any problems...",
           "text": "<b><br></b><br><span style=\"font-style: normal;\"><b>There are three problems with most work from home programs out there:<br></b><br><b>1. Most companies are WAY too expensive to get started, and some even make you pay MONTHLY fees! <br></b><br><b>2. Then they take your money and don't offer you any value or support.<br></b><br><b>3. Next thing you know, the programs turn out to be too complicated and take you weeks to start earning!</b><br></span><br>",
@@ -922,10 +922,10 @@
           "_name": "header3",
           "_anchor": "header3-1e",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "The fast, working solution is EPS.",
           "meta": "By John Smith posted July 20, 2016"
@@ -954,23 +954,23 @@
           "_name": "header5",
           "_anchor": "header5-1d",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "left",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/homework-woman-computer-relax-female-1301-2000x1332.jpg",
             "parallax": false,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/homework-woman-computer-relax-female-1301-2000x1332.jpg",
             "bgColor": "#efefef",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.8",
             "overlayColor": "#efefef",
-            "overlayOpacity": "0.8"
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "title": "Keeping things simple...",
           "text": "<b><br></b><span style=\"font-style: normal;\"><b>Email Processing is simple. It will fit and work with your lifestyle. You can work for as little as 30 minutes a day and still see results. When you get started, you'll receive a 10+ hour course that can help you turn this into full time work. That’s what a truly simple system is all about.<br><br>Exactly what You will be doing:<br></b><br><b>1) Post Our Pre-Written Ads on Craigslist &nbsp;<br>2) Check your Craigslist responses, then reply with the info we supply<br>3) Check Your Account Daily For $25 Payments ( Paid INSTANTLY )<br>4) Locate the Email Address Attached to the Payment<br>5) Send Out the Digital Products We Supply via Email</b></span><br>",
@@ -994,10 +994,10 @@
           "_name": "header3",
           "_anchor": "header3-1f",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "The basic idea...",
           "meta": "By John Smith posted July 20, 2016"
@@ -1027,25 +1027,25 @@
           },
           "_anchor": "msg-box5-17",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "imageSize": "60",
             "paddingTop": "1",
             "paddingBottom": "1",
+            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
             "bgColor": "#efefef",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "overlayOpacity": 0.5
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -1091,10 +1091,10 @@
           "_name": "header3",
           "_anchor": "header3-12",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "Earn without having to convince anyone.",
           "meta": ""
@@ -1116,23 +1116,23 @@
           "_name": "header5",
           "_anchor": "header5-1h",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/funding-2000x1280.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/funding-2000x1280.jpg",
             "bgColor": "#efefef",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.8",
             "overlayColor": "#efefef",
-            "overlayOpacity": "0.8"
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "title": "Sells itself",
           "text": "<span style=\"font-style: normal;\"><br></span><span style=\"font-style: normal;\">The ads We supply,&nbsp;<b>draws prospects</b> to You via email.&nbsp;You then direct them to Your EPS website.&nbsp;The <b>website explains everything</b>.&nbsp;<b>You don't HAVE to</b> <b>convince or sell anyone</b>.&nbsp;<b>You don't even HAVE to</b> <b>speak to anyone</b>&nbsp;unless You <b>WANT</b> to, and <b>STILL make money</b> daily. With this&nbsp;EPS training, <b>We SHOW You </b>WHERE to find <b>highly motivated </b>prospects in <b>need</b> of Our information, which <b>You grant access</b> to, upon <b>payment directly to Your paypal account</b>, and Your <b>computer &amp; phone</b> become a <b>money magnet. </b>See <b>sales within days</b> from<b> just posting ads </b>three times a day<b>.</b></span>",
@@ -1156,10 +1156,10 @@
           "_name": "header3",
           "_anchor": "header3-1i",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "Earnings with no real limits.",
           "meta": "By John Smith posted July 20, 2016"
@@ -1183,25 +1183,25 @@
           },
           "_anchor": "msg-box5-y",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "imageSize": "47",
             "paddingTop": "2",
             "paddingBottom": "1",
+            "parallax": false,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/3745352-9-orig-3-orig-2000x468.png",
-            "parallax": false,
-            "bgColorRadio": false,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.9",
             "overlayColor": "#cccccc",
-            "overlayOpacity": "0.9"
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -1247,10 +1247,10 @@
           "_name": "header3",
           "_anchor": "header3-3i",
           "_params": {
-            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "Features of Your EPS package include...",
           "meta": "By John Smith posted July 20, 2016"
@@ -1273,27 +1273,27 @@
           },
           "_anchor": "features1-16",
           "_params": {
+            "columnsColor": "#7eb5d2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": false,
-            "columnsColor": "#7eb5d2",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showButtons": false
           },
           "media1": {
             "image": {
@@ -1400,10 +1400,10 @@
           "_name": "header3",
           "_anchor": "header3-14",
           "_params": {
-            "showMeta": false,
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "This is NOT MLM or get rich quick stuff... This is EPS.",
           "meta": ""
@@ -1431,25 +1431,25 @@
           },
           "_anchor": "msg-box5-11",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "imageSize": "24",
             "paddingTop": "1",
             "paddingBottom": 0,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/revolution-clipart-angry-crowd-1400x1003.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.9",
             "overlayColor": "#fff",
-            "overlayOpacity": "0.9"
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -1484,25 +1484,25 @@
           "_name": "msg-box5",
           "_anchor": "msg-box5-4h",
           "_params": {
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false,
-            "inverse": false,
             "imageSize": "70",
             "paddingTop": "1",
             "paddingBottom": "1",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/disclaimer-eps-copy-2000x532.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#000000",
-            "overlayOpacity": "0.7"
+            "inverse": false,
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -1540,11 +1540,16 @@
       },
       "components": [
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-9h",
           "_params": {
-            "showText": false,
             "paddingTop": "3",
             "paddingBottom": "0",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showText": false
           },
           "media": {
             "image": {
@@ -1559,12 +1564,7 @@
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
             }
           },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image2",
-          "_anchor": "image2-9h"
+          "text": "Create awesome mobile-friendly websites. No coding and free."
         },
         {
           "_styles": {
@@ -1590,10 +1590,10 @@
           "_name": "header3",
           "_anchor": "header3-89",
           "_params": {
-            "showMeta": true,
             "paddingTop": "0",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": true
           },
           "title": "FAQ's",
           "meta": "<span style=\"font-style: normal;\"><b>Frequently Asked Questions</b></span>"
@@ -1624,10 +1624,10 @@
           "_name": "header3",
           "_anchor": "header3-8c",
           "_params": {
-            "showMeta": true,
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgColor": "#7eb5d2"
+            "bgColor": "#7eb5d2",
+            "showMeta": true
           },
           "title": "\"is this even legit ?\"",
           "meta": "<b>Let's address this now...&nbsp;</b><b>(turn sideways for mobile veiwing)</b>"
@@ -1639,11 +1639,8 @@
           "_name": "slider",
           "_params": {
             "autoplay": false,
-            "fullScreen": false,
             "paddingTop": "1",
             "paddingBottom": "3",
-            "showBullets": false,
-            "bgColor": "#fff",
             "timeout": 5,
             "slides": [
               {
@@ -1668,17 +1665,20 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
+                "overlayOpacity": "0.1",
+                "overlayColor": "#3d8eb9",
                 "contentAlign": "right",
                 "showTitle": false,
                 "title": "IMAGE SLIDE",
                 "showText": false,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
-                "overlayOpacity": "0.1",
-                "overlayColor": "#3d8eb9"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
-            ]
+            ],
+            "fullScreen": false,
+            "bgColor": "#fff",
+            "showBullets": false
           },
           "_anchor": "slider-8d",
           "articleLayout": false
@@ -1696,33 +1696,25 @@
               "color": "#454545"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#7eb5d2"
-          },
-          "title": "What makes the Eworkwanted EPS Package unique ?",
-          "meta": "three main things I'm looking for...",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-aa"
+          "_anchor": "header3-aa",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#7eb5d2",
+            "showMeta": false
+          },
+          "title": "What makes the Eworkwanted EPS Package unique ?",
+          "meta": "three main things I'm looking for..."
         },
         {
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "0",
-            "bgColor": "#fff"
-          },
-          "text1": "<p><b>$25 Basic EPS Package&nbsp;</b>( includes ad copy book, EPS members area and facebook group. Website, and training course <b>not</b>&nbsp;usually included, or at inflated cost.) Commonly offered anywhere EPS is advertised.</p>",
-          "text2": "<p><b>Eworkwanted EPS Package</b>&nbsp;(<b>$50-$100 value,</b> <b>Yours for $25 if You act now.</b> includes basic EPS at $25, Google hosted website template, EPS made easy training, and access to Our EPS facebook group.) </p><p><br></p><p><br></p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content6",
-          "_anchor": "content6-a7",
           "_styles": {
             "P": {
               "font-family": "'Montserrat', sans-serif",
@@ -1731,7 +1723,15 @@
               "text-align": "left",
               "color": "#323232"
             }
-          }
+          },
+          "_anchor": "content6-a7",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text1": "<p><b>$25 Basic EPS Package&nbsp;</b>( includes ad copy book, EPS members area and facebook group. Website, and training course <b>not</b>&nbsp;usually included, or at inflated cost.) Commonly offered anywhere EPS is advertised.</p>",
+          "text2": "<p><b>Eworkwanted EPS Package</b>&nbsp;(<b>$50-$100 value,</b> <b>Yours for $25 if You act now.</b> includes basic EPS at $25, Google hosted website template, EPS made easy training, and access to Our EPS facebook group.) </p><p><br></p><p><br></p>"
         },
         {
           "_styles": {
@@ -1749,41 +1749,41 @@
               "color": "#323232"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": "1",
-            "bgColor": "#fff"
-          },
-          "title": "A story about Eworkwanted.",
-          "meta": "<b>Let's address it now...</b>",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-b6"
+          "_anchor": "header3-b6",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "A story about Eworkwanted.",
+          "meta": "<b>Let's address it now...</b>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "20px",
+              "color": "#353535"
+            }
+          },
+          "_anchor": "content1-b7",
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgColor": "#fff"
           },
-          "text": "<p>This  package offers the most value currently in email processing. I have personally purchased EPS packages ranging from the basic standard, as well as $100 EPS packages with even more upsells (custom web sites, ect, ect). I have the receipts and know what it's like to be disappointed, but I never asked for a refund, and I never gave up. I also know a good opportunity when I see one. So I found Myself an EPS Sponsor who actually supplied My need for more specific guidance in this business. I paid yet again, just because I believed in this business model and I believed Her from what She had to show Me. I'm glad I did. </p><p><br></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "20px",
-              "color": "#353535"
-            }
-          },
-          "_anchor": "content1-b7"
+          "text": "<p>This  package offers the most value currently in email processing. I have personally purchased EPS packages ranging from the basic standard, as well as $100 EPS packages with even more upsells (custom web sites, ect, ect). I have the receipts and know what it's like to be disappointed, but I never asked for a refund, and I never gave up. I also know a good opportunity when I see one. So I found Myself an EPS Sponsor who actually supplied My need for more specific guidance in this business. I paid yet again, just because I believed in this business model and I believed Her from what She had to show Me. I'm glad I did. </p><p><br></p><p><br></p>"
         },
         {
           "_styles": {
@@ -1801,27 +1801,21 @@
               "color": "#323232"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": "1",
-            "bgColor": "#fff"
-          },
-          "title": "Putting My own spin on things...",
-          "meta": "<b>Let's address it now...</b>",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-b8"
+          "_anchor": "header3-b8",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Putting My own spin on things...",
+          "meta": "<b>Let's address it now...</b>"
         },
         {
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "3",
-            "bgColor": "#fff"
-          },
-          "text": "<p>So, I've combined My blogger web site template with the training I received from My own sponsor, and now I offer it all to You at no additional cost. Finally, I can honestly say I think this Eworkwanted&nbsp;EPS package is Your best and most affordable option to get started in this business quickly. &nbsp;Eworkwanted doesn't promote tiered $25, $50, $100+ price levels. (I believe that arbitrary pricing system is nonsense). Currently, at the time of launching Eworkwanted.com, The Eworkwanted EPS Package I offer has everything the $100+ level packages have. You won't have to buy in, several times like I did, just to find the right \"fit\". Passing this value onto You, My EPS recruited members, will allow You to enter this game with an advantage compared to the cost and value of packages found elsewhere. The whole idea is to give You a \"leg up\", so You can be proud in knowing You're offering everything You promise in terms of information and value, and knowing You're providing a great opportunity to the people You'll promote to. &nbsp;<br></p>",
           "_tags": [
             "Theme"
           ],
@@ -1835,7 +1829,13 @@
               "color": "#353535"
             }
           },
-          "_anchor": "content1-b5"
+          "_anchor": "content1-b5",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "3",
+            "bgColor": "#fff"
+          },
+          "text": "<p>So, I've combined My blogger web site template with the training I received from My own sponsor, and now I offer it all to You at no additional cost. Finally, I can honestly say I think this Eworkwanted&nbsp;EPS package is Your best and most affordable option to get started in this business quickly. &nbsp;Eworkwanted doesn't promote tiered $25, $50, $100+ price levels. (I believe that arbitrary pricing system is nonsense). Currently, at the time of launching Eworkwanted.com, The Eworkwanted EPS Package I offer has everything the $100+ level packages have. You won't have to buy in, several times like I did, just to find the right \"fit\". Passing this value onto You, My EPS recruited members, will allow You to enter this game with an advantage compared to the cost and value of packages found elsewhere. The whole idea is to give You a \"leg up\", so You can be proud in knowing You're offering everything You promise in terms of information and value, and knowing You're providing a great opportunity to the people You'll promote to. &nbsp;<br></p>"
         },
         {
           "_styles": {
@@ -1850,27 +1850,21 @@
               "color": "#454545"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#7eb5d2"
-          },
-          "title": "\"Everybody praises their own product, name one challenge I'll face making this work for Me...\"",
-          "meta": "three main things I'm looking for...",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-ak"
+          "_anchor": "header3-ak",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#7eb5d2",
+            "showMeta": false
+          },
+          "title": "\"Everybody praises their own product, name one challenge I'll face making this work for Me...\"",
+          "meta": "three main things I'm looking for..."
         },
         {
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "3",
-            "bgColor": "#fff"
-          },
-          "text": "<p><br></p><p><b>fair enough...</b></p><p><b><br></b></p><p>Honestly, the One challenge You'll face promoting EPS, regardless who You purchase from is this. Posting to Craigslist may require patience and determination to get all of Your ads to \"stick\". That has to do with Craigslist ever changing algorhythms and is no fault of EPS at all, and <b>it's more than possible to succeed as tons of people post to Craigslist everyday.</b> There are methods You can use to minimize \"flagging\" and \"ghosting\" of Your ads &nbsp;on Craigslist. There's even a method I share with You, that is \"flagging\" and \"ghosting proof\" to get You started. There is also very detailed instructions, tips and tricks posted in Our facebook group.</p><p><br></p><p><b>Mind You, Craigslist is just ONE of MANY classified sites where You can post Your ads online.</b>&nbsp;We focus on Craigslist mainly because of it's sheer size and popularity, but that's it. You're given a list of classified sites that will keep You busy and prosperous once You join. Not to mention, there's Instagram, Pinterest, Facebook, Backpage, Tumblr, blogs, traffic exchanges, even some sales platforms where You can literally go bananas with Your ads. Some people even do offline promotions locally, wherever there's exposure. We make it work, and it does. Between the Eworkwanted EPS training and facebook group, <b>We share everything We can to assist You in this business.</b> Your success looks good for My business. You win, I win. That's how it works. Treat this like any other job or business You've worked at, and You'll be counted among the success stories, and quickly!</p><p><br></p><p><b>Now You know everything You'd ever need to make an informed decision, before jumping in head first.</b></p><p>If this sounds like something You think You can manage, then join the Eworkwanted Team, and add another income stream to Your life today. <b>Remember, the most important thing, no matter what You choose to do, is to just get started.&nbsp;</b></p>",
           "_tags": [
             "Theme"
           ],
@@ -1884,7 +1878,13 @@
               "color": "#353535"
             }
           },
-          "_anchor": "content1-al"
+          "_anchor": "content1-al",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "3",
+            "bgColor": "#fff"
+          },
+          "text": "<p><br></p><p><b>fair enough...</b></p><p><b><br></b></p><p>Honestly, the One challenge You'll face promoting EPS, regardless who You purchase from is this. Posting to Craigslist may require patience and determination to get all of Your ads to \"stick\". That has to do with Craigslist ever changing algorhythms and is no fault of EPS at all, and <b>it's more than possible to succeed as tons of people post to Craigslist everyday.</b> There are methods You can use to minimize \"flagging\" and \"ghosting\" of Your ads &nbsp;on Craigslist. There's even a method I share with You, that is \"flagging\" and \"ghosting proof\" to get You started. There is also very detailed instructions, tips and tricks posted in Our facebook group.</p><p><br></p><p><b>Mind You, Craigslist is just ONE of MANY classified sites where You can post Your ads online.</b>&nbsp;We focus on Craigslist mainly because of it's sheer size and popularity, but that's it. You're given a list of classified sites that will keep You busy and prosperous once You join. Not to mention, there's Instagram, Pinterest, Facebook, Backpage, Tumblr, blogs, traffic exchanges, even some sales platforms where You can literally go bananas with Your ads. Some people even do offline promotions locally, wherever there's exposure. We make it work, and it does. Between the Eworkwanted EPS training and facebook group, <b>We share everything We can to assist You in this business.</b> Your success looks good for My business. You win, I win. That's how it works. Treat this like any other job or business You've worked at, and You'll be counted among the success stories, and quickly!</p><p><br></p><p><b>Now You know everything You'd ever need to make an informed decision, before jumping in head first.</b></p><p>If this sounds like something You think You can manage, then join the Eworkwanted Team, and add another income stream to Your life today. <b>Remember, the most important thing, no matter what You choose to do, is to just get started.&nbsp;</b></p>"
         },
         {
           "_styles": {
@@ -1898,19 +1898,19 @@
               "color": "#454545"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#7eb5d2"
-          },
-          "title": "More about the EPS business model...",
-          "meta": "three main things I'm looking for...",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-ah"
+          "_anchor": "header3-ah",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#7eb5d2",
+            "showMeta": false
+          },
+          "title": "More about the EPS business model...",
+          "meta": "three main things I'm looking for..."
         },
         {
           "_tags": [
@@ -1951,37 +1951,19 @@
               "font-size": "36px"
             }
           },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": 1,
-            "paddingBottom": "2",
-            "bgColor": "#fff"
-          },
-          "title": "noel.thomas<br>@eworkwanted.com",
-          "meta": "<b>For any issue concerning the eworkwanted EPS memberships ONLY.</b>",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-am"
-        },
-        {
+          "_anchor": "header3-am",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgColor": "#3d8eb9"
+            "paddingTop": 1,
+            "paddingBottom": "2",
+            "bgColor": "#fff",
+            "showMeta": true
           },
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"INDEX.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span>BACK HOME</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"Refund Policy.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-right mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;POLICY &nbsp; &nbsp; &nbsp; &nbsp;</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-9l",
-          "_styles": {
-            ".btn": {
-              "font-size": "32px"
-            }
-          }
+          "title": "noel.thomas<br>@eworkwanted.com",
+          "meta": "<b>For any issue concerning the eworkwanted EPS memberships ONLY.</b>"
         },
         {
           "_name": "footer1",
@@ -1990,13 +1972,13 @@
             "paddingTop": "4",
             "paddingBottom": "4",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": ""
         }
@@ -2010,11 +1992,16 @@
       },
       "components": [
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-9k",
           "_params": {
-            "showText": false,
             "paddingTop": "3",
             "paddingBottom": "2",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showText": false
           },
           "media": {
             "image": {
@@ -2029,12 +2016,7 @@
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
             }
           },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image2",
-          "_anchor": "image2-9k"
+          "text": "Create awesome mobile-friendly websites. No coding and free."
         },
         {
           "_styles": {
@@ -2051,10 +2033,10 @@
           "_name": "header3",
           "_anchor": "header3-8i",
           "_params": {
-            "showMeta": true,
             "paddingTop": "0",
             "paddingBottom": 1,
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": true
           },
           "title": "EPS Refund Policy",
           "meta": ""
@@ -2064,57 +2046,39 @@
             "Theme"
           ],
           "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
           "_anchor": "content1-8h",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": "7",
             "bgColor": "#fff"
           },
-          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">The Email Processing Systems (EPS) launched in 2010 and is a copy and paste system designed to help people make money online.  In the past our refund policy was misused and exploited by members who created false reasons for refunds but continued to use the system.  Because of this we have now implemented a very strict NO REFUND policy.  Why?  Because these are digital products that are \"unreturnable\", and expose Our marketing methods. If You were to order a cheese burger and eat it, it's unethical to then ask for a refund. That would be a rip off. Once You get access to Our product and training, You now have Our complete blueprint at Your disposal at a unredeemable value. AMAZON has similar no-refund policies in place for certain software and digital downloads, so it's not unheard of, nor unreasonable. It's very much applicable in Our case also. Not to mention, Our &nbsp;system absolutely works.  How do we know?  Because you are here reading this page AND EPS now have over 114,000 members*.</span><br></p><p><br></p><p>You see, your sponsor followed the system by placing ads, you responded to that ad and sent $25 -$50 directly to them.  They then “process your email” by giving you access to the members areas so that you can get started.  You are then a lifetime EPS member, and have been given access to all of our pre-written ad copy, our EPS made easy online course enrollment, Your free Web site template with easy instructions, as well as access to the EPS Support Team if you ever need help.  The EPS Support Team is available via email Monday – Friday from 10 AM to 7 PM EST.</p><p><br></p><p><b>You should also remember seeing this disclaimer on the site BEFORE you made the decision to join EPS:</b> &nbsp;</p><p><br></p><p>Email Processing Systems Disclaimer Below</p><p>***********************************DISCLAIMER ************************************</p><p>As a member, you get paid $25 for each email you process (minimum).  That's a 100% commission.  You are making a one-time $25 minimum payment to your sponsor for an EPS membership. There are NO admin fees, NO monthly fees.  In turn, the people who respond to your ads will pay you directly.  Because you will be given immediate access to the EPS members area and will have access to the step-by-step instructions and pre-written ads, we have a very strict NO REFUND POLICY.   By purchasing an EPS membership, you are agreeing to the following terms and conditions. All fees are non- refundable. You agree there are no refunds for any reason and non-use does not constitute a reason for a refund  of any kind.  As part of our terms and conditions, you agree that you will NOT dispute / chargeback the order for ANY reason.  If you are not sure if you want to join EPS or if for any reason you are not comfortable due to this policy, we suggest that you wait until you are absolutely sure.</p><p><br></p><p>Every effort has been made to accurately represent this program and it's potential.  This is not a “get-rich- quick” opportunity, but it is a legitimate way to create an extra income from your home.  You'll be amazed at  how with some real effort you can see real results, but it's up to you to take the necessary action.  You will be given step-by-step instructions.  Any earnings or income statements &amp; income examples are only estimates of what we think you could earn.  There is no assurance you'll do as well.  We are a long-term business, our minimal effort system is designed to change your life for many years, use it correctly and it will.&nbsp;</p><p><br></p><p>Because you agreed to the above disclaimer, your sponsor is not allowed to issue a refund to you. You will always have access to the EPS members area and we can not take your access back.  You are not allowed to bully your sponsor into giving you a refund because you haven't made money, have changed your mind and decided that this is not for you, or for any other reason.  You have everything you need to make money with Email Processing.  Entering a dispute or initiating a Chargeback in an attempt to get a refund is strictly prohibited and is considered fraudulent.  To do so puts you in direct violation of the EPS no refund policy and could result in legal action against you!</p><p><br></p><p>If you have any questions about this policy, feel free to contact EPS Support directly at support@emailprocessingsystems.com</p><p><br></p><p><br></p><p>*IMPORTANT NOTE:  The current membership count is based on the number of members who have ordered sites to be created and hosted by YA YA Services, Inc. and continues to grow daily.  We have no accurate way of knowing the actual membership count because some EPS members choose to build &amp; host their own sites.  Since payments are sent directly from new member to their sponsor and we do not receive these payment notifications, we will never know how many members have joined the Email Processing System.</p><p><br></p><p><br></p>",
-          "_styles": {
-            "P": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            }
-          }
+          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">The Email Processing Systems (EPS) launched in 2010 and is a copy and paste system designed to help people make money online.  In the past our refund policy was misused and exploited by members who created false reasons for refunds but continued to use the system.  Because of this we have now implemented a very strict NO REFUND policy.  Why?  Because these are digital products that are \"unreturnable\", and expose Our marketing methods. If You were to order a cheese burger and eat it, it's unethical to then ask for a refund. That would be a rip off. Once You get access to Our product and training, You now have Our complete blueprint at Your disposal at a unredeemable value. AMAZON has similar no-refund policies in place for certain software and digital downloads, so it's not unheard of, nor unreasonable. It's very much applicable in Our case also. Not to mention, Our &nbsp;system absolutely works.  How do we know?  Because you are here reading this page AND EPS now have over 114,000 members*.</span><br></p><p><br></p><p>You see, your sponsor followed the system by placing ads, you responded to that ad and sent $25 -$50 directly to them.  They then “process your email” by giving you access to the members areas so that you can get started.  You are then a lifetime EPS member, and have been given access to all of our pre-written ad copy, our EPS made easy online course enrollment, Your free Web site template with easy instructions, as well as access to the EPS Support Team if you ever need help.  The EPS Support Team is available via email Monday – Friday from 10 AM to 7 PM EST.</p><p><br></p><p><b>You should also remember seeing this disclaimer on the site BEFORE you made the decision to join EPS:</b> &nbsp;</p><p><br></p><p>Email Processing Systems Disclaimer Below</p><p>***********************************DISCLAIMER ************************************</p><p>As a member, you get paid $25 for each email you process (minimum).  That's a 100% commission.  You are making a one-time $25 minimum payment to your sponsor for an EPS membership. There are NO admin fees, NO monthly fees.  In turn, the people who respond to your ads will pay you directly.  Because you will be given immediate access to the EPS members area and will have access to the step-by-step instructions and pre-written ads, we have a very strict NO REFUND POLICY.   By purchasing an EPS membership, you are agreeing to the following terms and conditions. All fees are non- refundable. You agree there are no refunds for any reason and non-use does not constitute a reason for a refund  of any kind.  As part of our terms and conditions, you agree that you will NOT dispute / chargeback the order for ANY reason.  If you are not sure if you want to join EPS or if for any reason you are not comfortable due to this policy, we suggest that you wait until you are absolutely sure.</p><p><br></p><p>Every effort has been made to accurately represent this program and it's potential.  This is not a “get-rich- quick” opportunity, but it is a legitimate way to create an extra income from your home.  You'll be amazed at  how with some real effort you can see real results, but it's up to you to take the necessary action.  You will be given step-by-step instructions.  Any earnings or income statements &amp; income examples are only estimates of what we think you could earn.  There is no assurance you'll do as well.  We are a long-term business, our minimal effort system is designed to change your life for many years, use it correctly and it will.&nbsp;</p><p><br></p><p>Because you agreed to the above disclaimer, your sponsor is not allowed to issue a refund to you. You will always have access to the EPS members area and we can not take your access back.  You are not allowed to bully your sponsor into giving you a refund because you haven't made money, have changed your mind and decided that this is not for you, or for any other reason.  You have everything you need to make money with Email Processing.  Entering a dispute or initiating a Chargeback in an attempt to get a refund is strictly prohibited and is considered fraudulent.  To do so puts you in direct violation of the EPS no refund policy and could result in legal action against you!</p><p><br></p><p>If you have any questions about this policy, feel free to contact EPS Support directly at support@emailprocessingsystems.com</p><p><br></p><p><br></p><p>*IMPORTANT NOTE:  The current membership count is based on the number of members who have ordered sites to be created and hosted by YA YA Services, Inc. and continues to grow daily.  We have no accurate way of knowing the actual membership count because some EPS members choose to build &amp; host their own sites.  Since payments are sent directly from new member to their sponsor and we do not receive these payment notifications, we will never know how many members have joined the Email Processing System.</p><p><br></p><p><br></p>"
         },
         {
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgColor": "#3d8eb9"
-          },
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"INDEX.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span>BACK HOME</a>  <a data-app-btn=\"true\" class=\"btn btn-white-outline btn-white\" href=\"FAQ.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span>FAQ's page</a> ",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_styles": {
-            ".btn": {
-              "font-size": "32px"
-            }
-          },
-          "_anchor": "buttons1-9m"
-        },
-        {
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#323232",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "",
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-72"
+          "_anchor": "footer1-72",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": ""
         }
       ]
     },
@@ -2129,50 +2093,6 @@
       },
       "components": [
         {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
-            "showArrow": false,
-            "imageSize": "23",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1-1-852x480.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#7c706b",
-            "overlayOpacity": "0.5"
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/eworkfire-300x300.png",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "<br>Cheers to Your success,\n<div>farewell money worries.</div><div><br></div>",
-          "text": "<b><i>If You can reply to an email, You can make $100 a day<br> or more, part time work.\n</i></b><br><b><i>Join today&nbsp;</i></b><b><i>and grow Your income by 25k a year.</i>&nbsp;</b><br><br><b>more info below</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
@@ -2205,24 +2125,68 @@
               "color": "#efefef"
             }
           },
-          "_anchor": "header2-b9"
+          "_anchor": "header2-b9",
+          "_params": {
+            "imageSize": "23",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1-1-852x480.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#7c706b",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/eworkfire-300x300.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<br>Cheers to Your success,\n<div>farewell money worries.</div><div><br></div>",
+          "text": "<b><i>If You can reply to an email, You can make $100 a day<br> or more, part time work.\n</i></b><br><b><i>Join today&nbsp;</i></b><b><i>and grow Your income by 25k a year.</i>&nbsp;</b><br><br><b>more info below</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_name": "footer1",
+          "_anchor": "footer1-ba",
           "_params": {
             "paddingTop": "4",
             "paddingBottom": "4",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
-          "text": "",
-          "_anchor": "footer1-ba"
+          "text": ""
         },
         {
           "_inherit": "msg-box5",
@@ -2250,26 +2214,27 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           },
+          "_anchor": "msg-box4-bb",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
             "imageSize": "52",
             "paddingTop": "3",
             "paddingBottom": "5",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/coffee-shop-1149155-2000x1328.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#7c706b",
-            "overlayOpacity": "0.7"
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -2291,8 +2256,7 @@
           },
           "title": "Get a fresh start to boost Your income ...",
           "text": "<p><b>Are You employed or unemployed, in need of more money? You need this info right now! *$100 a day or more possible. *Get paid daily instead of weekly. *Work Your own hours, part time to full time. *Start immediately.\n<br>(Watch how to get started today.)</b><br></p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_anchor": "msg-box4-bb"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "_styles": {
@@ -2310,15 +2274,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-bc",
           "_params": {
-            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#ffffff"
+            "bgColor": "#ffffff",
+            "showMeta": false
           },
           "title": "Not Your average daily grind...&nbsp;",
-          "meta": "By John Smith posted July 20, 2016",
-          "_anchor": "header3-bc"
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_styles": {
@@ -2343,30 +2307,30 @@
             "Theme"
           ],
           "_name": "msg-box2",
+          "_anchor": "msg-box2-bd",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "paddingTop": "3",
             "paddingBottom": "3",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/woman-791185-960-2000x3000-sideways-1400x933.jpg",
             "parallax": false,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/woman-791185-960-2000x3000-sideways-1400x933.jpg",
             "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#3d8eb9",
-            "overlayOpacity": "0.7"
+            "inverse": true,
+            "showButtons": false,
+            "showTitle": true,
+            "showText": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
           "title": "<span style=\"color: rgb(255, 226, 132); font-size: 36px; text-align: center; line-height: 1.1;\">&nbsp; EPS works for thousands of people.</span><br><span style=\"color: rgb(255, 226, 132); font-size: 36px; text-align: center; line-height: 1.1;\">&nbsp;Tell us how we can work for You too.</span><br>",
-          "text": "",
-          "_anchor": "msg-box2-bd"
+          "text": ""
         },
         {
           "_tags": [
@@ -2446,27 +2410,27 @@
               "authorBio": "Credit to Jonathan R."
             }
           ],
+          "_anchor": "testimonials1-be",
           "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "count": "3",
             "showImages": true,
             "showName": true,
             "showBio": true,
-            "count": "3",
-            "paddingTop": "2",
-            "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/dots-grey-polka-hexagon-white-1024x768-c2-ffffff-d3d3d3-l2-28-77-a-0-f.svg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/dots-grey-polka-hexagon-white-1024x768-c2-ffffff-d3d3d3-l2-28-77-a-0-f.svg",
             "bgColor": "#ffffff",
+            "bgColorRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.8",
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.8"
+            "showTitle": true,
+            "showSubtitle": true
           },
           "title": "REAL EPS EXAMPLES<br><span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">Any quotations, opinions, and testimonies given are unsolicited, are authentic and unaffiliated with this site, and are actual indepedent email processing system sponsors, speaking on their own behalf about EPS. Credits and backlinks to their respective channels below. I thank You.</span>",
-          "subtitle": "",
-          "_anchor": "testimonials1-be"
+          "subtitle": ""
         },
         {
           "_inherit": "header1",
@@ -2496,29 +2460,29 @@
             "Theme"
           ],
           "_name": "header5",
+          "_anchor": "header5-bf",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "left",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/epscollage2-2000x1500.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/epscollage2-2000x1500.jpg",
             "bgColor": "#efefef",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.4",
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.4"
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "title": "#Winning...",
           "text": "<span style=\"font-weight: bold; font-style: normal;\">The number of people earning with EPS keeps growing, everyday. Doubt us ? You can meet these very same people in </span><span style=\"font-style: normal;\"><b>EPS proof groups</b></span><span style=\"font-weight: bold; font-style: normal;\"> all over facebook...</span><span style=\"font-style: normal;\"><b>&nbsp;They're plenty more, and plenty more money to earn with EPS, waiting for You. </b></span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>",
-          "_anchor": "header5-bf"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         },
         {
           "_tags": [
@@ -2532,11 +2496,8 @@
           },
           "_params": {
             "autoplay": false,
-            "fullScreen": true,
             "paddingTop": "2",
             "paddingBottom": "2",
-            "showBullets": false,
-            "bgColor": "#fff",
             "timeout": 5,
             "slides": [
               {
@@ -2595,10 +2556,13 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
-            ]
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": false
           },
-          "articleLayout": false,
-          "_anchor": "slider3-bg"
+          "_anchor": "slider3-bg",
+          "articleLayout": false
         },
         {
           "_styles": {
@@ -2618,27 +2582,21 @@
               "color": "#323232"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "2",
-            "paddingBottom": "0",
-            "bgColor": "#fff"
-          },
-          "title": "A Business Letter to You...",
-          "meta": "<b>Let's address it now...</b>",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-bh"
+          "_anchor": "header3-bh",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "A Business Letter to You...",
+          "meta": "<b>Let's address it now...</b>"
         },
         {
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgColor": "#fff"
-          },
-          "text": "<p><b>HTML DEAR BUSINESS ASSOCIATE</b></p>",
           "_tags": [
             "Theme"
           ],
@@ -2651,7 +2609,13 @@
               "text-align": "center"
             }
           },
-          "_anchor": "content1-bi"
+          "_anchor": "content1-bi",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>HTML DEAR BUSINESS ASSOCIATE</b></p>"
         },
         {
           "_styles": {
@@ -2681,15 +2645,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-bj",
           "_params": {
-            "showMeta": true,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#ffffff"
+            "bgColor": "#ffffff",
+            "showMeta": true
           },
           "title": "it all adds up.",
-          "meta": "<b style=\"font-style: normal;\">\"imitate success and You can generate success...\"</b><br><span style=\"font-style: normal;\">(We copy and paste success, by doing exactly as other successful people are doing.)</span>",
-          "_anchor": "header3-bj"
+          "meta": "<b style=\"font-style: normal;\">\"imitate success and You can generate success...\"</b><br><span style=\"font-style: normal;\">(We copy and paste success, by doing exactly as other successful people are doing.)</span>"
         },
         {
           "_styles": {
@@ -2737,16 +2701,16 @@
             "Extension"
           ],
           "_name": "modal-block",
+          "_anchor": "modal-block-bk",
           "_params": {
             "showModal": false,
-            "myModalId": "myModal",
             "blockTitle": "",
             "text": "<script type=\"text/javascript\"> \nfunction calculate(form)\n{\nvar i;\ni = (form.numbers.value*10)*2.5;\n \n form.total.value=Math.round(i);\n \n{\nvar j;\nj = (form.total.value*30);\n form.totall.value=Math.round(j);\n}\n}\n</script>\n</p><form name=\"balance\" id=\"balance\" action=\"http://biz.ovo.bg/easyhomebiz/index.html#\" method=\"post\">\n\n       <div align=\"center\">\n         <center>\n         \n                <table max-width=\"20%\" cellspacing=\"1\" cellpadding=\"7\" bordercolor=\"#ffe284\" border=\"40\">\n<tbody> \n                                <tr> \n                                  <td colspan=\"2\" bordercolor=\"#ffe284\" bgcolor=\"#4d4d4d\"> \n                                    <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\">\n\t\t\t\t\t\t\t\t\t<font style=\"font-size: 20pt\" face=\"Tahoma\" color=\"#FFFFFF\">\n                                    <strong>\n                                    <img src=\"http://i64.tinypic.com/np2w5v.jpg\" class=\"animated fadeInUp\" width=\"100%\" height=\"auto\" border=\"0\"><br>\n                                    Daily &amp; Monthly Earnings Calculator<br>\n\t\t\t\t\t\t\t\t\t</strong></font>\n\t\t\t\t\t\t\t\t\t<font font=\"\" face=\"Tahoma\" color=\"#F2F5A9\" size=\"3\">\n                                    See How Much You Can Earn with Email Processing System:</font></p></td>\n</tr>\n                                <tr bgcolor=\"#4d4d4d\"> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n                                    <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\">\n                                    <font face=\"Tahoma\">\n                                    <span style=\"font-size: 11pt; font-weight: 700\">Number of Emails You Can Process Per Day</span></font></p></td>\n                                  \n                                <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n                              &nbsp;&nbsp; \n                              <input size=\"8\" value=\"10\" name=\"numbers\" style=\"font-weight: 700\" class=\"animated fadeInUp\">\n                              <font style=\"font-size: 11pt\" face=\"Tahoma\"><strong>X ($25.00* Per Email)</strong></font></td>\n          </tr>\n                                <tr> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n              <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\"><strong>\n              <font style=\"font-size: 11pt\" face=\"Tahoma\">Your PayPal Payments Per Day</font><font size=\"3\">\n              </font></strong>\n                                     </p></td>\n \n<td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<strong><font face=\"Tahoma\">$</font></strong> \n<input size=\"8\" value=\"250\" name=\"total\" style=\"font-weight: 700\" class=\"animated fadeInUp\">\n</td>\n          </tr>\n                                <tr> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\"><font face=\"Tahoma\"><strong><span style=\"font-size: 11pt\">Your PayPal Payments Per Month</span></strong></font></p></td>\n \n                            <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<font face=\"Tahoma\"><strong>$</strong></font>                                   \n                          <input size=\"8\" value=\"7500\" readonly=\"readonly\" name=\"totall\" style=\"font-weight: 700\" class=\"animated fadeInUp\"></td>\n          </tr>\n                                <tr>\n                                  <td class=\"normal\" bordercolor=\"#ffe284\" colspan=\"2\" bgcolor=\"#FFFFFF\">\n                                  <p class=\"animated fadeInUp\" align=\"center\"> \n                                  <strong><span style=\"font-size: 11pt\">\n                                  <font face=\"Tahoma\" color=\"#666666\"> \n                                  <input name=\"Button\" class=\"button animated fadeInUp\" onclick=\"calculate(this.form)\" value=\" Calculate My Earnings!\" style=\"float: right\" type=\"button\"></font></span></strong></p></td>\n                                </tr>\n                                </tbody> \n      </table>\n\n         \n         </center>\n       </div>\n</form>",
+            "myModalId": "myModal",
             "bgColor": "#ffffff"
           },
           "blockTitle": "",
-          "text": "<script type=\"text/javascript\"> \nfunction calculate(form)\n{\nvar i;\ni = (form.numbers.value*10)*2.5;\n \n form.total.value=Math.round(i);\n \n{\nvar j;\nj = (form.total.value*30);\n form.totall.value=Math.round(j);\n}\n}\n</script>\n</p><form name=\"balance\" id=\"balance\" action=\"http://biz.ovo.bg/easyhomebiz/index.html#\" method=\"post\">\n\n       <div align=\"center\">\n         <center>\n         \n                <table max-width=\"20%\" cellspacing=\"1\" cellpadding=\"7\" bordercolor=\"#ffe284\" border=\"40\">\n<tbody> \n                                <tr> \n                                  <td colspan=\"2\" bordercolor=\"#ffe284\" bgcolor=\"#4d4d4d\"> \n                                    <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\">\n\t\t\t\t\t\t\t\t\t<font style=\"font-size: 20pt\" face=\"Tahoma\" color=\"#FFFFFF\">\n                                    <strong>\n                                    <img src=\"http://i64.tinypic.com/np2w5v.jpg\" class=\"animated fadeInUp\" width=\"100%\" height=\"auto\" border=\"0\"><br>\n                                    Daily &amp; Monthly Earnings Calculator<br>\n\t\t\t\t\t\t\t\t\t</strong></font>\n\t\t\t\t\t\t\t\t\t<font font=\"\" face=\"Tahoma\" color=\"#F2F5A9\" size=\"3\">\n                                    See How Much You Can Earn with Email Processing System:</font></p></td>\n</tr>\n                                <tr bgcolor=\"#4d4d4d\"> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n                                    <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\">\n                                    <font face=\"Tahoma\">\n                                    <span style=\"font-size: 11pt; font-weight: 700\">Number of Emails You Can Process Per Day</span></font></p></td>\n                                  \n                                <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n                              &nbsp;&nbsp; \n                              <input size=\"8\" value=\"10\" name=\"numbers\" style=\"font-weight: 700\" class=\"animated fadeInUp\">\n                              <font style=\"font-size: 11pt\" face=\"Tahoma\"><strong>X ($25.00* Per Email)</strong></font></td>\n          </tr>\n                                <tr> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n              <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\"><strong>\n              <font style=\"font-size: 11pt\" face=\"Tahoma\">Your PayPal Payments Per Day</font><font size=\"3\">\n              </font></strong>\n                                     </p></td>\n \n<td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<strong><font face=\"Tahoma\">$</font></strong> \n<input size=\"8\" value=\"250\" name=\"total\" style=\"font-weight: 700\" class=\"animated fadeInUp\">\n</td>\n          </tr>\n                                <tr> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\"><font face=\"Tahoma\"><strong><span style=\"font-size: 11pt\">Your PayPal Payments Per Month</span></strong></font></p></td>\n \n                            <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<font face=\"Tahoma\"><strong>$</strong></font>                                   \n                          <input size=\"8\" value=\"7500\" readonly=\"readonly\" name=\"totall\" style=\"font-weight: 700\" class=\"animated fadeInUp\"></td>\n          </tr>\n                                <tr>\n                                  <td class=\"normal\" bordercolor=\"#ffe284\" colspan=\"2\" bgcolor=\"#FFFFFF\">\n                                  <p class=\"animated fadeInUp\" align=\"center\"> \n                                  <strong><span style=\"font-size: 11pt\">\n                                  <font face=\"Tahoma\" color=\"#666666\"> \n                                  <input name=\"Button\" class=\"button animated fadeInUp\" onclick=\"calculate(this.form)\" value=\" Calculate My Earnings!\" style=\"float: right\" type=\"button\"></font></span></strong></p></td>\n                                </tr>\n                                </tbody> \n      </table>\n\n         \n         </center>\n       </div>\n</form>",
-          "_anchor": "modal-block-bk"
+          "text": "<script type=\"text/javascript\"> \nfunction calculate(form)\n{\nvar i;\ni = (form.numbers.value*10)*2.5;\n \n form.total.value=Math.round(i);\n \n{\nvar j;\nj = (form.total.value*30);\n form.totall.value=Math.round(j);\n}\n}\n</script>\n</p><form name=\"balance\" id=\"balance\" action=\"http://biz.ovo.bg/easyhomebiz/index.html#\" method=\"post\">\n\n       <div align=\"center\">\n         <center>\n         \n                <table max-width=\"20%\" cellspacing=\"1\" cellpadding=\"7\" bordercolor=\"#ffe284\" border=\"40\">\n<tbody> \n                                <tr> \n                                  <td colspan=\"2\" bordercolor=\"#ffe284\" bgcolor=\"#4d4d4d\"> \n                                    <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\">\n\t\t\t\t\t\t\t\t\t<font style=\"font-size: 20pt\" face=\"Tahoma\" color=\"#FFFFFF\">\n                                    <strong>\n                                    <img src=\"http://i64.tinypic.com/np2w5v.jpg\" class=\"animated fadeInUp\" width=\"100%\" height=\"auto\" border=\"0\"><br>\n                                    Daily &amp; Monthly Earnings Calculator<br>\n\t\t\t\t\t\t\t\t\t</strong></font>\n\t\t\t\t\t\t\t\t\t<font font=\"\" face=\"Tahoma\" color=\"#F2F5A9\" size=\"3\">\n                                    See How Much You Can Earn with Email Processing System:</font></p></td>\n</tr>\n                                <tr bgcolor=\"#4d4d4d\"> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n                                    <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\">\n                                    <font face=\"Tahoma\">\n                                    <span style=\"font-size: 11pt; font-weight: 700\">Number of Emails You Can Process Per Day</span></font></p></td>\n                                  \n                                <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n                              &nbsp;&nbsp; \n                              <input size=\"8\" value=\"10\" name=\"numbers\" style=\"font-weight: 700\" class=\"animated fadeInUp\">\n                              <font style=\"font-size: 11pt\" face=\"Tahoma\"><strong>X ($25.00* Per Email)</strong></font></td>\n          </tr>\n                                <tr> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n              <p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\"><strong>\n              <font style=\"font-size: 11pt\" face=\"Tahoma\">Your PayPal Payments Per Day</font><font size=\"3\">\n              </font></strong>\n                                     </p></td>\n \n<td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<strong><font face=\"Tahoma\">$</font></strong> \n<input size=\"8\" value=\"250\" name=\"total\" style=\"font-weight: 700\" class=\"animated fadeInUp\">\n</td>\n          </tr>\n                                <tr> \n                                  <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<p style=\"text-align: center\" class=\"animated fadeInUp\" align=\"center\"><font face=\"Tahoma\"><strong><span style=\"font-size: 11pt\">Your PayPal Payments Per Month</span></strong></font></p></td>\n \n                            <td bordercolor=\"#ffe284\" bgcolor=\"#FFFFFF\"> \n<font face=\"Tahoma\"><strong>$</strong></font>                                   \n                          <input size=\"8\" value=\"7500\" readonly=\"readonly\" name=\"totall\" style=\"font-weight: 700\" class=\"animated fadeInUp\"></td>\n          </tr>\n                                <tr>\n                                  <td class=\"normal\" bordercolor=\"#ffe284\" colspan=\"2\" bgcolor=\"#FFFFFF\">\n                                  <p class=\"animated fadeInUp\" align=\"center\"> \n                                  <strong><span style=\"font-size: 11pt\">\n                                  <font face=\"Tahoma\" color=\"#666666\"> \n                                  <input name=\"Button\" class=\"button animated fadeInUp\" onclick=\"calculate(this.form)\" value=\" Calculate My Earnings!\" style=\"float: right\" type=\"button\"></font></span></strong></p></td>\n                                </tr>\n                                </tbody> \n      </table>\n\n         \n         </center>\n       </div>\n</form>"
         },
         {
           "_styles": {
@@ -2757,19 +2721,19 @@
               "color": "#232323"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "3",
-            "paddingBottom": "0",
-            "bgColor": "#7eb5d2"
-          },
-          "title": "College debt ? Car payments ? Mortage ? Rent ? Children ? Medical bills ? Own pets ?<br>",
-          "meta": "By John Smith posted July 20, 2016",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-cg"
+          "_anchor": "header3-cg",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgColor": "#7eb5d2",
+            "showMeta": false
+          },
+          "title": "College debt ? Car payments ? Mortage ? Rent ? Children ? Medical bills ? Own pets ?<br>",
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_styles": {
@@ -2780,19 +2744,19 @@
               "color": "#efefef"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "0",
-            "paddingBottom": "1",
-            "bgColor": "#7eb5d2"
-          },
-          "title": "Does it ever become just a bit too much ???<br>",
-          "meta": "By John Smith posted July 20, 2016",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-ch"
+          "_anchor": "header3-ch",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgColor": "#7eb5d2",
+            "showMeta": false
+          },
+          "title": "Does it ever become just a bit too much ???<br>",
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_styles": {
@@ -2803,26 +2767,31 @@
               "color": "#d14841"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgColor": "#ffffff"
-          },
-          "title": "Well Your luck just changed today !",
-          "meta": "By John Smith posted July 20, 2016",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-cn"
+          "_anchor": "header3-cn",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgColor": "#ffffff",
+            "showMeta": false
+          },
+          "title": "Well Your luck just changed today !",
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-cq",
           "_params": {
-            "showText": false,
             "paddingTop": "2",
             "paddingBottom": "0",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showText": false
           },
           "media": {
             "image": {
@@ -2837,12 +2806,7 @@
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
             }
           },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image2",
-          "_anchor": "image2-cq"
+          "text": "Create awesome mobile-friendly websites. No coding and free."
         },
         {
           "_styles": {
@@ -2853,19 +2817,19 @@
               "font-size": "48px"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgColor": "#fff"
-          },
-          "title": "EPS stands undefeated !",
-          "meta": "By John Smith posted July 20, 2016",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-cj"
+          "_anchor": "header3-cj",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "EPS stands undefeated !",
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_styles": {
@@ -2876,33 +2840,25 @@
               "font-size": "30px"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "title": "EPS is the quickest way to make hundreds of dollars a day online. Bar none. I dare You to find something simpler and quicker, that's as newbie friendly as EPS with eworkwanted.",
-          "meta": "By John Smith posted July 20, 2016",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-ci"
+          "_anchor": "header3-ci",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "EPS is the quickest way to make hundreds of dollars a day online. Bar none. I dare You to find something simpler and quicker, that's as newbie friendly as EPS with eworkwanted.",
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "3",
-            "bgColor": "#fff"
-          },
-          "text1": "<p>*Start within 24 hours.</p><p>*Get paid everyday, instantly.&nbsp;</p><p>*Work from home, or anywhere.</p><p>*No experience needed, seriously.</p>",
-          "text2": "<p>*Easy to follow step by step videos.</p><p>*Pay bills, buy food &amp; clothes, save.</p><p>*Double Your income this month.</p><p>*Bounce back from debts, tickets.</p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content6",
-          "_anchor": "content6-cf",
           "_styles": {
             "P": {
               "font-size": "30px",
@@ -2910,14 +2866,27 @@
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
-          }
+          },
+          "_anchor": "content6-cf",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "3",
+            "bgColor": "#fff"
+          },
+          "text1": "<p>*Start within 24 hours.</p><p>*Get paid everyday, instantly.&nbsp;</p><p>*Work from home, or anywhere.</p><p>*No experience needed, seriously.</p>",
+          "text2": "<p>*Easy to follow step by step videos.</p><p>*Pay bills, buy food &amp; clothes, save.</p><p>*Double Your income this month.</p><p>*Bounce back from debts, tickets.</p>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-cm",
           "_params": {
-            "showText": false,
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showText": false
           },
           "media": {
             "image": {
@@ -2932,12 +2901,7 @@
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
             }
           },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image2",
-          "_anchor": "image2-cm"
+          "text": "Create awesome mobile-friendly websites. No coding and free."
         },
         {
           "_styles": {
@@ -2959,19 +2923,19 @@
               "color": "#454545"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "3",
-            "paddingBottom": "4",
-            "bgColor": "#fff"
-          },
-          "title": "<span style=\"font-weight: normal;\">A REAL solution for REAL people, with REAL wants and needs.</span><br><span style=\"font-weight: normal;\">Not</span> <i style=\"font-weight: normal;\">Super-shiny</i><span style=\"font-weight: normal;\"> or </span><i style=\"font-weight: normal;\">Super-sexy</i><span style=\"font-weight: normal;\">, &nbsp;just a </span>Super Simple SOLUTION<span style=\"font-weight: normal;\">.</span><br><span style=\"font-weight: normal;\">Get what You want, &nbsp;when You want, &nbsp;how You want</span><i style=\"font-weight: normal;\">,&nbsp;</i><br><span style=\"font-weight: normal;\">wherever You want ... guilt free access to cash.</span>",
-          "meta": "<b>Let's address it now...</b>",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-co"
+          "_anchor": "header3-co",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "4",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "<span style=\"font-weight: normal;\">A REAL solution for REAL people, with REAL wants and needs.</span><br><span style=\"font-weight: normal;\">Not</span> <i style=\"font-weight: normal;\">Super-shiny</i><span style=\"font-weight: normal;\"> or </span><i style=\"font-weight: normal;\">Super-sexy</i><span style=\"font-weight: normal;\">, &nbsp;just a </span>Super Simple SOLUTION<span style=\"font-weight: normal;\">.</span><br><span style=\"font-weight: normal;\">Get what You want, &nbsp;when You want, &nbsp;how You want</span><i style=\"font-weight: normal;\">,&nbsp;</i><br><span style=\"font-weight: normal;\">wherever You want ... guilt free access to cash.</span>",
+          "meta": "<b>Let's address it now...</b>"
         },
         {
           "_styles": {
@@ -2989,15 +2953,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-bl",
           "_params": {
-            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "People like You and I, just want a fair break.",
-          "meta": "By John Smith posted July 20, 2016",
-          "_anchor": "header3-bl"
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_tags": [
@@ -3023,30 +2987,30 @@
               "font-size": "24px"
             }
           },
+          "_anchor": "msg-box1-bm",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/beforeoutofbedcash-2000x1188.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/beforeoutofbedcash-2000x1188.jpg",
             "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.5",
             "overlayColor": "#3d8eb9",
-            "overlayOpacity": "0.5"
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "<br><span style=\"font-style: normal;\"><b>Look forward to money morning and evening daily</b>.<b>&nbsp;</b></span>",
-          "title": "CASH BEFORE OUT OF BED",
-          "_anchor": "msg-box1-bm"
+          "title": "CASH BEFORE OUT OF BED"
         },
         {
           "_tags": [
@@ -3078,13 +3042,13 @@
               "text-align": "center"
             }
           },
+          "_anchor": "content1-bn",
           "_params": {
             "paddingTop": "5",
             "paddingBottom": "0",
             "bgColor": "#ffffff"
           },
-          "text": "\"Early to sleep, early to rise; makes one healthy, wealthy, and wise...\" the saying goes, right ? Well, how smart would You feel, knowing that before most people roll out of bed, You're already making more money than 50% of the American population ?<div>(True story, I fact checked it. If you make more than $30,000 a year, you earn more than 53.2% of Americans.) I don't say that, for You to gloat. I say that so You realize, that's A LOT of people who need what I'm sharing with You right now. About 161.5 million people. With this kind of opportunity at Your disposal, You can always be in demand; before You even hop out of bed tomorrow.<br><p><br></p></div>",
-          "_anchor": "content1-bn"
+          "text": "\"Early to sleep, early to rise; makes one healthy, wealthy, and wise...\" the saying goes, right ? Well, how smart would You feel, knowing that before most people roll out of bed, You're already making more money than 50% of the American population ?<div>(True story, I fact checked it. If you make more than $30,000 a year, you earn more than 53.2% of Americans.) I don't say that, for You to gloat. I say that so You realize, that's A LOT of people who need what I'm sharing with You right now. About 161.5 million people. With this kind of opportunity at Your disposal, You can always be in demand; before You even hop out of bed tomorrow.<br><p><br></p></div>"
         },
         {
           "_styles": {
@@ -3102,15 +3066,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-bo",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "Set Your own schedule, anyday, everyday.",
-          "meta": "",
-          "_anchor": "header3-bo"
+          "meta": ""
         },
         {
           "_tags": [
@@ -3139,30 +3103,30 @@
               "color": "#ffe284"
             }
           },
+          "_anchor": "msg-box1-bp",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1127.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1127.jpg",
             "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.4",
             "overlayColor": "#a38f84",
-            "overlayOpacity": "0.4"
+            "inverse": true,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "<b><br></b><br><b><br></b><br><b><br></b><br><b><br></b><br><b style=\"font-style: normal;\"><br></b><br><span style=\"font-style: normal;\"><b>\"Auto Pilot\" system, Your sky's the limit.</b></span>",
-          "title": "MAKE CASH ON YOUR WAY TO ANYWHERE...&nbsp;",
-          "_anchor": "msg-box1-bp"
+          "title": "MAKE CASH ON YOUR WAY TO ANYWHERE...&nbsp;"
         },
         {
           "_tags": [
@@ -3178,13 +3142,13 @@
               "color": "#454545"
             }
           },
+          "_anchor": "content1-bq",
           "_params": {
             "paddingTop": "5",
             "paddingBottom": "3",
             "bgColor": "#ffffff"
           },
-          "text": "<p>We're all on Our way to somewhere in life,  and then again, too many of us feel 'stuck' in place. Well, wherever You currently find Yourself, this one question will make all the difference in Your mind; \"At this moment, are You making enough money at whatever You're doing right now ?\". If You're at work, You don't have to give up Your job yet. EPS can make You money while You're on the clock. If You're not employed right now, EPS can make You a full time income, while You're busy or (rather not so busy) doing whatever it is You're doing ( I understand, it's tough out there I know ). EPS will help You today, from now on.</p>",
-          "_anchor": "content1-bq"
+          "text": "<p>We're all on Our way to somewhere in life,  and then again, too many of us feel 'stuck' in place. Well, wherever You currently find Yourself, this one question will make all the difference in Your mind; \"At this moment, are You making enough money at whatever You're doing right now ?\". If You're at work, You don't have to give up Your job yet. EPS can make You money while You're on the clock. If You're not employed right now, EPS can make You a full time income, while You're busy or (rather not so busy) doing whatever it is You're doing ( I understand, it's tough out there I know ). EPS will help You today, from now on.</p>"
         },
         {
           "_styles": {
@@ -3202,15 +3166,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-br",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "Make time for the nicer things in life.",
-          "meta": "",
-          "_anchor": "header3-br"
+          "meta": ""
         },
         {
           "_tags": [
@@ -3233,26 +3197,27 @@
               "color": "#ffffff"
             }
           },
+          "_anchor": "msg-box5-bs",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "imageSize": 50,
             "paddingTop": "1",
             "paddingBottom": "3",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#3d8eb9",
-            "overlayOpacity": "0.7"
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -3278,8 +3243,7 @@
           },
           "title": "<br>First steps to Big change...",
           "text": "Since 2010, <b>EPS</b> has changed many lives for the <b>better</b>. One of the most <b>effective</b> ways, is to help others fend for themselves in difficult times. This is where world change starts. You <b>must have </b>something of <b>value</b> to offer, then the world can see how <b>awesome</b> Your contribution is. <b>EPS</b> gives You something to <b>offer</b>, so Your value can be seen, and Your involvement <b>admired</b>. With<b> EPS</b> You have information, very much needed for<b> everybody looking </b>to live a better life, and it's Yours to have. Let's face it, <b>everyone needs</b> money to live well. The <b>fact EPS works</b>, and is so easy to <b>start</b> and succeed at, You'll always be a welcome voice, and in <b>good company</b>, making the world a better place.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_anchor": "msg-box5-bs"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_styles": {
@@ -3297,15 +3261,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-bt",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "The poor work hard, the wealthy work smart.",
-          "meta": "By John Smith posted July 20, 2016",
-          "_anchor": "header3-bt"
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_styles": {
@@ -3316,19 +3280,19 @@
               "color": "#ffffff"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "7",
-            "paddingBottom": 1,
-            "bgColor": "#7eb5d2"
-          },
-          "title": "hey, we don't want any problems...",
-          "meta": "By John Smith posted July 20, 2016",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-cy"
+          "_anchor": "header3-cy",
+          "_params": {
+            "paddingTop": "7",
+            "paddingBottom": 1,
+            "bgColor": "#7eb5d2",
+            "showMeta": false
+          },
+          "title": "hey, we don't want any problems...",
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_styles": {
@@ -3347,19 +3311,19 @@
               "font-size": "32px"
             }
           },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-cv",
           "_params": {
-            "showMeta": false,
             "paddingTop": "2",
             "paddingBottom": 1,
-            "bgColor": "#7eb5d2"
+            "bgColor": "#7eb5d2",
+            "showMeta": false
           },
           "title": "<span style=\"font-weight: normal;\">There are three </span>problems<span style=\"font-weight: normal;\"> with most work from home </span><br><span style=\"font-weight: normal;\">programs out there:</span>",
-          "meta": "three main things I'm looking for...",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-cv"
+          "meta": "three main things I'm looking for..."
         },
         {
           "_styles": {
@@ -3377,19 +3341,19 @@
               "color": "#efefef"
             }
           },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-ct",
           "_params": {
-            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#7eb5d2"
+            "bgColor": "#7eb5d2",
+            "showMeta": false
           },
           "title": "<span style=\"font-weight: normal;\">1</span>. Most companies are WAY too expensive to get started, <br>and some even make you pay MONTHLY fees!&nbsp;",
-          "meta": "three main things I'm looking for...",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-ct"
+          "meta": "three main things I'm looking for..."
         },
         {
           "_styles": {
@@ -3407,19 +3371,19 @@
               "color": "#efefef"
             }
           },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-cu",
           "_params": {
-            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#7eb5d2"
+            "bgColor": "#7eb5d2",
+            "showMeta": false
           },
           "title": "<span style=\"font-weight: normal;\">2</span>. Then they take your money and DON'T offer you any <br>value or support.",
-          "meta": "three main things I'm looking for...",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-cu"
+          "meta": "three main things I'm looking for..."
         },
         {
           "_styles": {
@@ -3437,19 +3401,19 @@
               "color": "#efefef"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#7eb5d2"
-          },
-          "title": "<span style=\"font-weight: normal;\">3</span>. Next thing you know, the programs turn out to be too COMPLICATED, and take you WEEKS to start earning!",
-          "meta": "three main things I'm looking for...",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-cs"
+          "_anchor": "header3-cs",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#7eb5d2",
+            "showMeta": false
+          },
+          "title": "<span style=\"font-weight: normal;\">3</span>. Next thing you know, the programs turn out to be too COMPLICATED, and take you WEEKS to start earning!",
+          "meta": "three main things I'm looking for..."
         },
         {
           "_styles": {
@@ -3467,15 +3431,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-bv",
           "_params": {
-            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": "1",
-            "bgColor": "#7eb5d2"
+            "bgColor": "#7eb5d2",
+            "showMeta": false
           },
           "title": "The fast, working solution is EPS.",
-          "meta": "By John Smith posted July 20, 2016",
-          "_anchor": "header3-bv"
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_inherit": "header1",
@@ -3502,29 +3466,29 @@
             "Theme"
           ],
           "_name": "header5",
+          "_anchor": "header5-bw",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/homework-woman-computer-relax-female-1301-2000x1332.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/homework-woman-computer-relax-female-1301-2000x1332.jpg",
             "bgColor": "#efefef",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#efefef",
-            "overlayOpacity": "0.7"
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "title": "Keeping things simple...",
           "text": "<b><br></b><span style=\"font-style: normal;\"><b>Email Processing System (EPS) is simple, and fits well with your lifestyle. </b></span><br><span style=\"font-style: normal;\"><b>You can work for as little as 30 minutes a day and still see results. </b></span><br><span style=\"font-style: normal;\"><b>You'll receive an online course that helps turn this into full time work. </b></span><br><span style=\"font-style: normal;\"><b>That’s what a truly simple system is all about. Start within 24 hours.<br></b></span><br><span style=\"font-style: normal;\"><b>Exactly what You will be doing:<br></b><br><b>1) Post Our Pre-Written Ads on Craigslist ( or social media platforms ).<br>2) Check your Craigslist responses, then reply with the info we supply<br>3) Check Your Account Daily For $25 Payments ( Paid INSTANTLY )<br>4) Locate the Email Address Attached to the Payment<br>5) Send Out the Digital Products We Supply via Email</b></span><br><span style=\"font-style: normal;\"><b><br></b></span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>",
-          "_anchor": "header5-bw"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -3543,26 +3507,27 @@
               "text-align": "center"
             }
           },
+          "_anchor": "msg-box4-bx",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
             "imageSize": "34",
             "paddingTop": "1",
             "paddingBottom": "1",
+            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
             "bgColor": "#7eb5d2",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "overlayOpacity": 0.5
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -3584,8 +3549,7 @@
           },
           "title": "<br><br>Quick example ...",
           "text": "<p>&nbsp;<span style=\"font-size: 1.07rem;\">A straight forward example of how a post is done.</span></p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_anchor": "msg-box4-bx"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_styles": {
@@ -3603,15 +3567,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-by",
           "_params": {
-            "showMeta": false,
             "paddingTop": "3",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "The basic idea behind the name...",
-          "meta": "By John Smith posted July 20, 2016",
-          "_anchor": "header3-by"
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_tags": [
@@ -3639,26 +3603,27 @@
               "font-size": "20px"
             }
           },
+          "_anchor": "msg-box5-bz",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "imageSize": "57",
             "paddingTop": "0",
             "paddingBottom": "2",
+            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/dots-grey-polka-hexagon-white-1024x768-c2-ffffff-d3d3d3-l2-28-77-a-0-f.svg",
-            "parallax": false,
-            "bgColorRadio": true,
             "bgColor": "#ffffff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.9",
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.9"
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -3683,8 +3648,7 @@
           },
           "title": "Let Me clear things up even more...",
           "text": "If You take a <b>good look</b> at this example email, You  start to get an idea <b>how simple this is</b>. This is why it's called the <b>Email Processing System</b>, it's  basic customer service You're providing. People <b>request</b> information; They <b>pay You a fee</b>; You then <b>direct them</b> to that information. <b>Your payment is processed</b> per request, thus the name Email Processing System. This is just the basics, so <b>let's look even closer</b>.&nbsp;<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_anchor": "msg-box5-bz"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_styles": {
@@ -3702,15 +3666,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-c0",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "Earn without having to convince anyone.",
-          "meta": "",
-          "_anchor": "header3-c0"
+          "meta": ""
         },
         {
           "_inherit": "header1",
@@ -3732,52 +3696,68 @@
             "Theme"
           ],
           "_name": "header5",
+          "_anchor": "header5-c1",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/funding-2000x1280.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/funding-2000x1280.jpg",
             "bgColor": "#efefef",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.8",
             "overlayColor": "#efefef",
-            "overlayOpacity": "0.8"
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "title": "<span style=\"line-height: 1.1;\"><br></span><span style=\"line-height: 1.1;\">Sells itself</span><br>",
           "text": "<span style=\"font-style: normal;\"><br></span><span style=\"font-style: normal;\"><br></span><span style=\"font-style: normal;\">The ads We supply,&nbsp;<b>draws prospects</b> to You via email.&nbsp;You then direct them to Your EPS website.&nbsp;The <b>website explains everything</b>.&nbsp;<b>You don't HAVE to</b> <b>convince or sell anyone</b>.&nbsp;<b>You don't even HAVE to</b> <b>speak to anyone</b>&nbsp;unless You <b>WANT</b> to, and <b>STILL make money</b> daily. With this&nbsp;EPS training, <b>We SHOW You </b>WHERE to find <b>highly motivated </b>prospects in <b>need</b> of Our information, which <b>You grant access</b> to, upon <b>payment directly to Your paypal account</b>, and Your <b>computer &amp; phone</b> become a <b>money magnet. </b>See <b>sales within days</b> from<b> just posting ads </b>three times a day<b>.</b></span>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>",
-          "_anchor": "header5-c1"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         },
         {
           "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "color": "#323232"
+            },
+            "H3": {
+              "color": "#efefef",
+              "font-size": "24px",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "msg-box4-c2",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
             "imageSize": "34",
             "paddingTop": "1",
             "paddingBottom": "1",
+            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
             "bgColor": "#7eb5d2",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "overlayOpacity": 0.5
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -3799,23 +3779,7 @@
           },
           "title": "&nbsp;<br>Facebooking...",
           "text": "<p><span style=\"font-size: 1.07rem;\">Video Credit to Amanda Welch, promoting the system on facebook.</span><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_name": "msg-box4",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "color": "#323232"
-            },
-            "H3": {
-              "color": "#efefef",
-              "font-size": "24px",
-              "text-align": "center"
-            }
-          },
-          "_anchor": "msg-box4-c2"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_styles": {
@@ -3833,15 +3797,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-c3",
           "_params": {
-            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "Earnings with no real limits.",
-          "meta": "By John Smith posted July 20, 2016",
-          "_anchor": "header3-c3"
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_tags": [
@@ -3861,26 +3825,27 @@
               "color": "#454545"
             }
           },
+          "_anchor": "msg-box5-c4",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
             "imageSize": "47",
             "paddingTop": "2",
             "paddingBottom": "2",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/3745352-9-orig-3-orig-2000x468.png",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.9",
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.9"
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -3906,8 +3871,7 @@
           },
           "title": "Make as much money as You have time for...",
           "text": "However much money <b>You make</b>, directly depends on the <b>time</b> and effort You put in, if You&nbsp;<b>follow</b>&nbsp;the training provided to You. (Even just one sale a day will total You $750 a month). Everything <b>You need to start today</b>, has been included. <b>This is the best</b> Email Processing Training I've come across ( by EarnwithLee ).&nbsp;<b>EPS</b> has really evolved over the years, as sponsors such as Myself, have strived to provide <b>better and better </b>information. It's all to ensure You <b>begin generating</b> as much<b> money</b> as You can, as <b>soon as You can</b>. You must <b>take action</b>, and <b>follow through</b>;&nbsp;apply this daily, and once You do I can <b>safely</b> and <b>proudly</b> say, this will be the most<b> rewarding</b> and <b>easy</b> business to <b>start</b> online, You've ever come across. I'm also sure You'll <b>agree with Me</b> too! <b>Let Me show You it's features...</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_anchor": "msg-box5-c4"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_styles": {
@@ -3925,15 +3889,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-c5",
           "_params": {
-            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "Features of Your EPS package include...",
-          "meta": "By John Smith posted July 20, 2016",
-          "_anchor": "header3-c5"
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_tags": [
@@ -3983,28 +3947,29 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
+          "_anchor": "features1-c6",
           "_params": {
+            "columnsColor": "#7eb5d2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": false,
-            "columnsColor": "#7eb5d2",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showButtons": false
           },
           "media1": {
             "image": {
@@ -4036,7 +4001,7 @@
           },
           "title2": "<span style=\"color: inherit; font-size: 1.25rem; line-height: 1.2825;\"><br></span><span style=\"color: inherit; font-size: 1.25rem; line-height: 1.2825;\">EPS made easy</span><br>",
           "subtitle2": "<b><span style=\"font-size: 0.875rem; line-height: 1.7857;\">Complete Enrollment Course</span><br><span style=\"font-style: normal;\">($50 - $100 added VALUE)</span></b>",
-          "caption2": "10+ Hours of training (including <b>videos</b> and <b>ebooks</b>)<br><br><span style=\"font-size: 1rem; line-height: 1.5;\"><b>Step-by-step</b> <b>Craigslist,</b> </span><br><b>Facebook,&nbsp;</b><b>YouTube, </b>and<b>&nbsp;Instagram</b> <b>training</b><br><br><span style=\"font-size: 1rem; line-height: 1.5;\">This Course tracks Your progress as You complete each section.&nbsp;</span><b><br></b><br><b>Quick start</b> Craigslist Marketing section is the only part needed to get started right away in under an hour or so. <br><br>(This is a <b>simple system</b> not requiring days or weeks to start.)<br><br>",
+          "caption2": "10+ Hours of training (including <b>videos</b> and <b>ebooks</b>)<br><br><span style=\"font-size: 1rem; line-height: 1.5;\"><b>Step-by-step</b> <b>Craigslist,</b> </span><br><b>Facebook,&nbsp;</b><b>YouTube, </b>and<b>&nbsp;Instagram</b> <b>training</b><br><br><span style=\"font-size: 1rem; line-height: 1.5;\">This Course tracks Your progress as You complete each section.&nbsp;</span><b><br></b><br><b>Quick start</b> Craigslist Marketing section is the only part needed to get started right away in under an hour or so.<br><br>(This is a <b>simple system</b> not requiring days or weeks to start.) <b>Free enrollment</b>.<br><br>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
@@ -4093,8 +4058,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_anchor": "features1-c6"
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_styles": {
@@ -4110,15 +4074,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-c7",
           "_params": {
-            "showMeta": false,
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "This is NOT MLM or get rich quick stuff... This is EPS.",
-          "meta": "",
-          "_anchor": "header3-c7"
+          "meta": ""
         },
         {
           "_styles": {
@@ -4165,29 +4129,29 @@
             "Theme"
           ],
           "_name": "msg-box8",
+          "_anchor": "msg-box8-c8",
           "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButton": false,
             "paddingTop": "3",
             "paddingBottom": "5",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/0rnva1515543547-2000x1050.png",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0",
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0"
+            "showTitle": true,
+            "showText": false,
+            "showButton": false
           },
           "title": "<br>THAT'S $50 - $100&nbsp;<br>OF TOTAL VALUE&nbsp;<br><span style=\"font-weight: normal;\">GET THIS PACKAGE TODAY FOR MUCH LESS !!!</span><br>",
           "text": "<p><br></p><p><br></p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
-          "_anchor": "msg-box8-c8"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
           "_styles": {
@@ -4203,15 +4167,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-c9",
           "_params": {
-            "showMeta": false,
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "An Extremely Reasonable Value !",
-          "meta": "",
-          "_anchor": "header3-c9"
+          "meta": ""
         },
         {
           "_tags": [
@@ -4231,26 +4195,27 @@
               "text-align": "center"
             }
           },
+          "_anchor": "msg-box5-ca",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
             "imageSize": "38",
             "paddingTop": "5",
             "paddingBottom": "3",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/sunburst-burst-rays-pink-orange-1920x1080-c2-f2742f-e285c1-k2-50-50-l2-21-30-a-8-f-22.svg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.2",
             "overlayColor": "#353535",
-            "overlayOpacity": "0.2"
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -4276,8 +4241,7 @@
           },
           "title": "&nbsp; JOIN EPS TODAY ! <br>Click the get started button",
           "text": "<b>JOIN THIS</b> <b>AWESOME OFFER TODAY,&nbsp;FOR A ONE TIME FEE&nbsp;</b><br><b>AND GET STARTED WITHIN 24 Hrs !</b>&nbsp;<br>(This deal is available exclusively from Eworkwanted sponsors.)<br><b>JUST CLICK THE \"GET IT NOW\" BUTTON TO SEE HOW MUCH.</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_anchor": "msg-box5-ca"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_styles": {
@@ -4289,54 +4253,81 @@
               "font-size": "36px"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgColor": "#fff"
-          },
-          "title": "&nbsp;I'll see You on the other side...",
-          "meta": "",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-ep"
+          "_anchor": "header3-ep",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "&nbsp;I'll see You on the other side...",
+          "meta": ""
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-eq",
           "_params": {
             "paddingTop": "4",
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><br></p>",
+          "text": "<p><br></p>"
+        },
+        {
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_anchor": "content1-eq"
-        },
-        {
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "text-align": "center",
+              "color": "#7eb5d2",
+              "font-size": "36px"
+            },
+            "P": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "text-align": "center",
+              "font-size": "24px",
+              "color": "#000000"
+            },
+            "B": {
+              "text-align": "center",
+              "color": "#f28281",
+              "font-size": "22px"
+            },
+            "SPAN": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "msg-box5-cp",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
             "imageSize": "50",
             "paddingTop": "0",
             "paddingBottom": "7",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.7"
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -4365,34 +4356,7 @@
           },
           "title": "Okay the wait is over...",
           "text": "<b>&nbsp;&nbsp;</b><b>&nbsp;Ok. Firstly, Congrats for making it this far!</b>&nbsp;You must be seriously motivated, and I salute You! &nbsp;<b>Honestly</b>, I&nbsp;<b>want</b> You <b>to</b> <b>click </b>that \"GET STARTED NOW\" <b>button</b>, just as much as You &nbsp;<b>want&nbsp;</b><b>to see what</b><b>&nbsp;EPS is really about</b>. So here's the deal, I'm NO sales Guru, and the last thing I want to do is sales pitch to You. I really don't. <b>I know</b> that's breaking the rules, but I want <b>You </b>to <b>believe</b> in Yourself, <b>Take</b> a <b>step</b> of faith, and <b>Click</b> the \"GET STARTED NOW\" <b>button</b>. If this is something that interests You, then <font color=\"#f28281\"><span style=\"font-size: 22px;\">act</span></font>&nbsp;soon. The price may&nbsp;<b>increase</b>&nbsp;at ANYTIME. I could easily charge $50-$100 for this package, and I just might do that soon. So You decide, at this great entry level price, or wait and possibly pay twice as much later.&nbsp;<b>You'll see</b>&nbsp;by&nbsp;<b>clicking</b>&nbsp;the&nbsp;<b>button</b>. <br>God speed and God bless.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box5",
-          "_styles": {
-            "H3": {
-              "text-align": "center",
-              "color": "#7eb5d2",
-              "font-size": "36px"
-            },
-            "P": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "text-align": "center",
-              "font-size": "24px",
-              "color": "#000000"
-            },
-            "B": {
-              "text-align": "center",
-              "color": "#f28281",
-              "font-size": "22px"
-            },
-            "SPAN": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "msg-box5-cp"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_styles": {
@@ -4410,15 +4374,15 @@
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-cb",
           "_params": {
-            "showMeta": true,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#7eb5d2"
+            "bgColor": "#7eb5d2",
+            "showMeta": true
           },
           "title": "<a href=\"FAQ.html\" target=\"_blank\" class=\"text-white\">need more info? check our FAQ click here.</a>",
-          "meta": "",
-          "_anchor": "header3-cb"
+          "meta": ""
         },
         {
           "_tags": [
@@ -4435,26 +4399,27 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           },
+          "_anchor": "msg-box5-cc",
           "_params": {
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
             "imageSize": "70",
             "paddingTop": "1",
             "paddingBottom": "1",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/disclaimer-eps-copy-2000x532.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#000000",
-            "overlayOpacity": "0.7"
+            "inverse": false,
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -4483,8 +4448,7 @@
           },
           "title": "SOLID COLOR INTRO WITH IMAGE",
           "text": "<b><br></b><br><b>Disclaimer.</b><br><b><a href=\"Refund Policy.html\" target=\"_blank\" style=\"font-style: normal;\"><b>Refund Policy</b></a>.</b><br><b>Please look it over.</b><br><b>(turn phone sideways)</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_anchor": "msg-box5-cc"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_styles": {
@@ -4498,19 +4462,19 @@
               "color": "#454545"
             }
           },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": "3",
-            "paddingBottom": "2",
-            "bgColor": "#323232"
-          },
-          "title": "",
-          "meta": "",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-cz"
+          "_anchor": "header3-cz",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "2",
+            "bgColor": "#323232",
+            "showMeta": true
+          },
+          "title": "",
+          "meta": ""
         },
         {
           "_styles": {
@@ -4573,13 +4537,12 @@
               "background-color": "#ffffff"
             }
           },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-ce",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
             "bgColor": "#7eb5d2",
             "fontSize": "0.85",
             "fontName": {
@@ -4588,9 +4551,14 @@
               "css": "'Oswald', sans-serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"FAQ.html\" target=\"_blank\">FAQ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Refund Policy.html\" target=\"_blank\">&nbsp;POLICY</a></li>",
           "logo": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/2h7dmvd-600x450.png",
@@ -4611,11 +4579,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"page8.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">eworkwanted&nbsp;</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-ce"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"FAQ.html\" target=\"_blank\">FAQ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Refund Policy.html\" target=\"_blank\">&nbsp;POLICY</a></li>"
         }
       ]
     },
@@ -4634,44 +4598,80 @@
             ".mbr-section-title": {
               "color": "#ef4644",
               "font-size": "46px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#2c46ef",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "1",
-            "paddingBottom": "3",
-            "bgColor": "#fff"
-          },
-          "title": "Start making $100 a day within the next 24 hrs&nbsp;",
-          "meta": "By John Smith posted July 20, 2016",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-eu"
+          "_anchor": "header3-eu",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#ffffff",
+            "showMeta": true
+          },
+          "title": "&nbsp;You'll make $100/day on social media if you...",
+          "meta": "<span style=\"font-style: normal;\"><b>FREE BONUS</b> gift </span><b>just for watching this video,</b><span style=\"font-style: normal;\"> showing how You can&nbsp;</span><b>get paid daily-instantly</b><span style=\"font-style: normal;\"> to Paypal, today. Simple, hassle-free info.</span>"
         },
         {
           "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-size": "24px",
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-size": "24px"
+            },
+            "H3": {
+              "color": "#f3c649",
+              "text-align": "center",
+              "font-size": "36px"
+            },
+            "B": {
+              "font-size": "23px",
+              "color": "#ffffff",
+              "text-align": "center"
+            },
+            "I": {
+              "color": "#f3c649"
+            }
+          },
+          "_anchor": "msg-box4-ev",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "imageSize": "54",
+            "imageSize": "46",
             "paddingTop": "0",
             "paddingBottom": "0",
+            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
+            "bgColor": "#804cf8",
+            "bgColorRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "rawUrl": "https://www.youtube.com/watch?v=RyhsehUvsJU",
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/RyhsehUvsJU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -4691,31 +4691,9 @@
               "size": 250
             }
           },
-          "title": "7 reasons to watch now",
-          "text": "<b>The most valuable information You will hear today</b><br><b> The fastest start to earning up to $100 everyday<br>The simplest way to make real money online<br>The most beginner friendly way to real results <br>Skip all the difficulties of making money online <br>Discover everything at once, no secrets withheld <br>So simple, ANYONE using the internet can do it&nbsp;</b>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"INDEX.html\" data-toolbar=\"-mbrBtnMove\">&nbsp;GET ACCESS NOW</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-ev",
-          "_styles": {
-            "P": {
-              "text-align": "left",
-              "font-size": "24px"
-            },
-            ".btn": {
-              "font-size": "24px"
-            },
-            "H3": {
-              "color": "#7eb5d2",
-              "text-align": "center",
-              "font-size": "36px"
-            },
-            "B": {
-              "font-size": "23px"
-            }
-          }
+          "title": "&nbsp; 7 reasons to watch now &nbsp;&nbsp;",
+          "text": "✅ <b>The most valuable info You'll hear today!<br>✅          The fastest start to earning online daily!<br>✅          The simplest way to make $Hundreds online!<br>✅       The most beginner friendly way to real results!<br>✅     Skip all the difficulties of making money online!<br>✅<i>  </i>Discover everything at once, no secrets withheld! <br>✅    So simple, ANYONE using the internet can do it !</b><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"INDEX.html\" data-toolbar=\"-mbrBtnMove\">&nbsp;GET ACCESS NOW</a>"
         },
         {
           "_styles": {
@@ -4723,29 +4701,35 @@
               "text-align": "center"
             },
             "H3": {
-              "color": "#28324e"
+              "color": "#fb933d"
             },
             "SMALL": {
               "color": "#454545"
             },
             ".mbr-section-title": {
-              "color": "#4e4e4e",
+              "color": "#ffffff",
               "font-size": "36px"
+            },
+            ".mbr-section-title I": {
+              "color": "#fb933d"
+            },
+            "SPAN": {
+              "color": "#fb933d"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "0",
-            "paddingBottom": "1",
-            "bgColor": "#fff"
-          },
-          "title": "Watch then click the 'get access now' button.",
-          "meta": "<b>Let's address it now...</b>",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-ew"
+          "_anchor": "header3-ew",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#2c46ef",
+            "showMeta": false
+          },
+          "title": "<span style=\"font-weight: normal;\">Watch then click the </span>get access now<span style=\"font-weight: normal;\"> button.</span>",
+          "meta": "<b>Let's address it now...</b>"
         }
       ]
     }
